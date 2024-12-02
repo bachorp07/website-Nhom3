@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án - Nhóm 3</title>
+    <style>
+        /* Cấu hình chung */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+        }
+
+        /* Video */
+        .video-container {
+            text-align: center;
+            margin: 40px auto;
+            width: 100%;  /* Đảm bảo video chiếm toàn bộ chiều rộng */
+            max-width: 100%;  /* Giới hạn video không vượt quá màn hình */
+            position: relative;
+            padding-bottom: 56.25%; /* Tỷ lệ 16:9 (chia chiều cao cho chiều rộng để có tỷ lệ đúng) */
+            height: 0;
+            overflow: hidden;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Nội dung trang */ 
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dự Án Nhóm 3</h1>
+    </div>
+
+    <div class="content">
+        <h2>Vô tình</h2>
+        <p>(PUSKIN)</p>
+
+        <div class="video-container">
+            <!-- Thêm đường dẫn video của bạn vào đây -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lhoNeRNM7oc?si=JuDalZIiIdpsbi6T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
